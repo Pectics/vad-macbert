@@ -1,6 +1,15 @@
-# vad-macbert
+<div align="center">
+  <h1>vad-macbert</h1>
+  <p>中文 VAD（valence/arousal/dominance）回归模型，基于 chinese-macbert-base。</p>
+  <p>
+    <a href="https://huggingface.co/Pectics/vad-macbert">
+      <img alt="HF Model" src="https://img.shields.io/badge/Hugging%20Face-Model-yellow">
+    </a>
+    <img alt="Task" src="https://img.shields.io/badge/task-VAD%20regression-1f6feb">
+    <img alt="Backbone" src="https://img.shields.io/badge/backbone-chinese--macbert--base-4b8bbe">
+  </p>
+</div>
 
-基于 `hfl/chinese-macbert-base` 的中文 VAD（valence/arousal/dominance）回归模型。
 输出 3 个连续值，目标对齐到教师模型 `RobroKools/vad-bert` 的 VAD 空间。
 
 ## 快速上手

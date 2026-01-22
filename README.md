@@ -21,9 +21,18 @@ tags:
 - macbert
 ---
 
-# vad-macbert
+<div align="center">
+  <h1>vad-macbert</h1>
+  <p>Chinese VAD (valence/arousal/dominance) regression on top of chinese-macbert-base.</p>
+  <p>
+    <a href="https://huggingface.co/Pectics/vad-macbert">
+      <img alt="HF Model" src="https://img.shields.io/badge/Hugging%20Face-Model-yellow">
+    </a>
+    <img alt="Task" src="https://img.shields.io/badge/task-VAD%20regression-1f6feb">
+    <img alt="Backbone" src="https://img.shields.io/badge/backbone-chinese--macbert--base-4b8bbe">
+  </p>
+</div>
 
-Chinese VAD (valence/arousal/dominance) regression based on `hfl/chinese-macbert-base`.
 The model predicts 3 continuous values aligned to the VAD scale produced by
 `RobroKools/vad-bert` (teacher model).
 
