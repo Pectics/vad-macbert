@@ -1,26 +1,3 @@
----
-license: mit
-datasets:
-- Helsinki-NLP/open_subtitles
-language:
-- zh
-base_model:
-- hfl/chinese-macbert-base
-pipeline_tag: text-classification
-tags:
-- agent
-- nlp
-- chinese
-- sentiment-analysis
-- emotion
-- regression
-- vad
-- valence-arousal-dominance
-- transformers
-- bert
-- macbert
----
-
 <div align="center">
   <h1>vad-macbert</h1>
   <p>Chinese VAD (valence/arousal/dominance) regression on top of chinese-macbert-base.</p>
