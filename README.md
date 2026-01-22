@@ -9,6 +9,16 @@ base_model:
 pipeline_tag: text-classification
 tags:
 - agent
+- nlp
+- chinese
+- sentiment-analysis
+- emotion
+- regression
+- vad
+- valence-arousal-dominance
+- transformers
+- bert
+- macbert
 ---
 
 # vad-macbert
